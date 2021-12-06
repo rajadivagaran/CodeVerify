@@ -1,0 +1,21 @@
+.Detailstext{
+    display: flex;
+    justify-content:flex-start;
+    height: 500px;
+    width: 80%;
+    border: 3px solid #5d3a1a;
+    margin-top: 50px;
+    /* justify-content: center;
+    align-content: center; */
+    background-color:bisque;
+}
+.info{
+    margin: 100px 0px 100px 200px;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #5d3a1a;
+    font-weight: bold;
+
+}

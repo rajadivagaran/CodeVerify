@@ -1,0 +1,106 @@
+.content{
+    text-align: center;
+    color:black;
+    font-weight: bolder;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.loginImg{
+    margin-top: 100px;
+}
+.loginField >p{
+
+    color: black;
+}
+.loginField{
+    text-align: center;
+    width: 300px;
+    height: auto;
+    margin: auto;
+    margin-top: 15px;
+    padding: 30px;
+    /* border: none; */
+}
+#loginBtn{
+    background-color: cornflowerblue;
+    padding: 5px;
+    font-weight: bolder;
+    text-decoration: none;
+    border:solid 2px black;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+#registerBtn{
+    background-color: cornflowerblue;
+    padding: 5px;
+    font-weight: bolder;
+    border:solid 2px black;
+}
+/* .loginField a{
+    padding:8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color:cornflowerblue;
+    color: black;
+    border: 2px solid black;
+    border-radius: 4px;
+} */
+/* body{
+    background-image: url('../Images/notebook.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    margin: auto;
+} */
+@media screen and (max-width: 600px) {
+    .loginField{
+        text-align: center;
+        width: 150px;
+        height: auto;
+        margin: auto;
+        margin-top: 15px;
+        padding: 30px;
+        /* border: none; */
+    }
+    .content{
+        font-size: 8px;
+        
+    }
+    .content > .loginField > input{
+        width: 100px;
+    }
+}
+.tooltip {
+    position: relative;
+    /* display: inline-block; */
+    /* border-bottom: 1px dotted black; */
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    
+    /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }

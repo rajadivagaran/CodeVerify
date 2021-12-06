@@ -1,0 +1,26 @@
+header{
+    display: flex;
+    background-color: #666;
+    padding: 2px;
+    width: 100%;
+    /* text-align: center;
+    justify-content: center; */
+    font-size:large;
+    color: white;
+    overflow: auto;
+}
+.title{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+.headLogo{
+    /* display: flex; */
+    justify-content: flex-start;
+    text-align: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+}
